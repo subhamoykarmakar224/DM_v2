@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "f4uXENyQNxqbtRUSDmM7HYbANrzfrEG/YpW6K8mvA7ZVN8AwdMY074V3u9KdIpQ+rlQIiA1Yf7zmCpjmJcSnyQ==",
+  "success": true,
+  "projectFilePath": "I:\\Projects\\TIPPER\\Code_github\\DTM_YimingNewClient\\new-client-subhamoy\\new-client-subhamoy\\DM1\\DM1\\DM1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Subhamoy\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Subhamoy\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Subhamoy\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Subhamoy\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\Subhamoy\\.nuget\\packages\\plugin.ble\\2.1.1\\plugin.ble.2.1.1.nupkg.sha512",
+    "C:\\Users\\Subhamoy\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Subhamoy\\.nuget\\packages\\universalbeaconlibrary\\3.2.0\\universalbeaconlibrary.3.2.0.nupkg.sha512",
+    "C:\\Users\\Subhamoy\\.nuget\\packages\\xam.plugin.connectivity\\3.2.0\\xam.plugin.connectivity.3.2.0.nupkg.sha512",
+    "C:\\Users\\Subhamoy\\.nuget\\packages\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Users\\Subhamoy\\.nuget\\packages\\xamarin.forms\\4.8.0.1687\\xamarin.forms.4.8.0.1687.nupkg.sha512"
+  ],
+  "logs": []
+}

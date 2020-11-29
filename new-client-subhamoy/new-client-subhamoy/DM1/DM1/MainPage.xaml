@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:DM1"
+             x:Class="DM1.MainPage">
+
+    <StackLayout>
+        <Label Text="Tippers Mobile Client App" Font="Bold, 16"
+           HorizontalOptions="Center"
+           VerticalOptions="Center" />
+
+        <Label Text="Research Funding Provided by DARPA Brandeis" Font="12"
+           HorizontalOptions="Center"
+           VerticalOptions="Center" />
+        <Image Source="DM1.png" 
+               WidthRequest = "100"
+                HeightRequest = "150"/>
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Button x:Name="ButtonRun" Grid.Column="0" Text="Run"
+               Clicked="OnButtonClickedRunDataCollection" />
+
+            <Button x:Name= "ButtonStop" Grid.Column="1" Text="Stop" 
+                Clicked="OnButtonClickedStopDataCollection"/>
+
+               <Button Grid.Column="2"    Text="Config" 
+                Clicked="Button_Clicked"/>
+        </Grid>
+
+
+
+
+        <Grid>
+        <Entry x:Name="SensorID" 
+               Placeholder="Email address or ID" 
+               Completed="Entry_Completed"
+               IsEnabled="False"
+                Grid.Column="0"/>
+
+        </Grid>
+
+        <Picker x:Name="Picker"   SelectedIndexChanged="OnPickerSelectedIndexChanged"            
+        Title="Select a Server"
+        TitleColor="Red" Grid.Row="3" Grid.Column="1">
+            <Picker.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <!-- <x:String>http://192.168.0.4:18001</x:String>
+                    <x:String>http://128.195.11.30:9002</x:String> -->
+                    <x:String>http://128.195.52.137:8080</x:String>
+                </x:Array>
+            </Picker.ItemsSource>
+        </Picker>
+
+
+        <Label x:Name="Status1label" 
+               Text= "Current Tippers uri: http://192.168.0.4:18001"/>
+        <Label x:Name ="Statuslabel"
+               Text="" />
+        <Label x:Name ="SendLabel"
+               Text="" />
+        <Label x:Name ="DeviceNamelabel"
+               Text="" />
+        <Label x:Name ="DeviceMaclabel"
+               Text="" />
+        <Label x:Name ="BluetoothStatuslabel"
+               Text="" />
+    </StackLayout>
+
+</ContentPage>
