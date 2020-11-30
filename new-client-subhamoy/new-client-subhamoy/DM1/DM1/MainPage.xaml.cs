@@ -34,7 +34,6 @@ namespace DM1
         public MainPage()
         {
             InitializeComponent();
-
             InitializeParameter();
             ButtonStop.IsEnabled = false;
             if (Device.RuntimePlatform == "Android")
@@ -48,6 +47,54 @@ namespace DM1
                 // locationManager = new CLLocationManager();
                 // locationManager.RequestWhenInUseAuthorization();
             }
+
+            GetRuntimePermissions();
+        }
+
+        public async void GetRuntimePermissions()
+        {
+            PermissionStatus status = PermissionStatus.Granted;
+
+            status = await Permissions.CheckStatusAsync<Permissions.LocationWhenInUse>();
+            if(status != PermissionStatus.Granted)
+            {
+                status = await Permissions.RequestAsync<Permissions.LocationWhenInUse>();
+                DisplayAlertForPermissions("Location access.", status);
+            }
+            status = await Permissions.CheckStatusAsync<Permissions.StorageRead>();
+            if (status != PermissionStatus.Granted)
+            {
+                status = await Permissions.RequestAsync<Permissions.StorageRead>();
+                DisplayAlertForPermissions("Storage read access.", status);
+            }
+
+            status = await Permissions.CheckStatusAsync<Permissions.StorageWrite>();
+            if (status != PermissionStatus.Granted)
+            {
+                status = await Permissions.RequestAsync<Permissions.StorageWrite>();
+                DisplayAlertForPermissions("Storage write access.", status);
+            }
+
+            status = await Permissions.CheckStatusAsync<Permissions.NetworkState>();
+            if (status != PermissionStatus.Granted)
+            {
+                status = await Permissions.RequestAsync<Permissions.NetworkState>();
+                DisplayAlertForPermissions("Network status access.", status);
+            }
+
+
+            status = await Permissions.CheckStatusAsync<Permissions.Phone>();
+            if (status != PermissionStatus.Granted)
+            {
+                status = await Permissions.RequestAsync<Permissions.Phone>();
+                DisplayAlertForPermissions("Phone access.", status);
+            }
+        }
+
+        private async void DisplayAlertForPermissions(string message, PermissionStatus status)
+        {
+            if(status != PermissionStatus.Granted)
+                await DisplayAlert("Alert!", "Permission Required for, " + message + " Please grant the app permission to have a better experience.", "Ok");
         }
 
         public static void InitializeParameter()

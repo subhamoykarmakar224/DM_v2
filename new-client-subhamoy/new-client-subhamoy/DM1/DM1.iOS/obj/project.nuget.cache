@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Eal9CyJNTPFU3EIg094rcoGOBG1+PD1TD5unBQ7hpnUUYMWtz83vJIVEnrets5ohFBpMY5sa/cSDuHiVfvNzww==",
+  "dgSpecHash": "wlf/Yj0nVa1eUIVzq/iOuiQhf8HfsHjWBi4sHul5a888cg1sW/6jowLwJC/l6o2GwWkWURSky3l7ML1FuPUanA==",
   "success": true,
-  "projectFilePath": "I:\\Projects\\TIPPER\\Code_github\\DTM_YimingNewClient\\new-client-subhamoy\\new-client-subhamoy\\DM1\\DM1.iOS\\DM1.iOS.csproj",
+  "projectFilePath": "I:\\Projects\\TIPPER\\Code_github\\DM_v2\\DM_v2\\new-client-subhamoy\\new-client-subhamoy\\DM1\\DM1.iOS\\DM1.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Subhamoy\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Subhamoy\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",

@@ -5998,11 +5998,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "I:\\Projects\\TIPPER\\Code_github\\DTM_YimingNewClient\\new-client-subhamoy\\new-client-subhamoy\\DM1\\DM1.iOS\\DM1.iOS.csproj",
+      "projectUniqueName": "I:\\Projects\\TIPPER\\Code_github\\DM_v2\\DM_v2\\new-client-subhamoy\\new-client-subhamoy\\DM1\\DM1.iOS\\DM1.iOS.csproj",
       "projectName": "DM1.iOS",
-      "projectPath": "I:\\Projects\\TIPPER\\Code_github\\DTM_YimingNewClient\\new-client-subhamoy\\new-client-subhamoy\\DM1\\DM1.iOS\\DM1.iOS.csproj",
+      "projectPath": "I:\\Projects\\TIPPER\\Code_github\\DM_v2\\DM_v2\\new-client-subhamoy\\new-client-subhamoy\\DM1\\DM1.iOS\\DM1.iOS.csproj",
       "packagesPath": "C:\\Users\\Subhamoy\\.nuget\\packages\\",
-      "outputPath": "I:\\Projects\\TIPPER\\Code_github\\DTM_YimingNewClient\\new-client-subhamoy\\new-client-subhamoy\\DM1\\DM1.iOS\\obj\\",
+      "outputPath": "I:\\Projects\\TIPPER\\Code_github\\DM_v2\\DM_v2\\new-client-subhamoy\\new-client-subhamoy\\DM1\\DM1.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -6023,8 +6023,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "I:\\Projects\\TIPPER\\Code_github\\DTM_YimingNewClient\\new-client-subhamoy\\new-client-subhamoy\\DM1\\DM1\\DM1.csproj": {
-              "projectPath": "I:\\Projects\\TIPPER\\Code_github\\DTM_YimingNewClient\\new-client-subhamoy\\new-client-subhamoy\\DM1\\DM1\\DM1.csproj"
+            "I:\\Projects\\TIPPER\\Code_github\\DM_v2\\DM_v2\\new-client-subhamoy\\new-client-subhamoy\\DM1\\DM1\\DM1.csproj": {
+              "projectPath": "I:\\Projects\\TIPPER\\Code_github\\DM_v2\\DM_v2\\new-client-subhamoy\\new-client-subhamoy\\DM1\\DM1\\DM1.csproj"
             }
           }
         }
