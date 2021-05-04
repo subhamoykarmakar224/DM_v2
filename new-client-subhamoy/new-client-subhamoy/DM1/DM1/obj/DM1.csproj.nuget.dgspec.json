@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "I:\\Projects\\TIPPER\\Code_github\\DTM_YimingNewClient\\new-client-subhamoy\\new-client-subhamoy\\DM1\\DM1\\DM1.csproj": {}
+    "I:\\Projects_backup\\TIPPER\\Code_github\\DM_v2\\DM_v2\\new-client-subhamoy\\new-client-subhamoy\\DM1\\DM1\\DM1.csproj": {}
   },
   "projects": {
-    "I:\\Projects\\TIPPER\\Code_github\\DTM_YimingNewClient\\new-client-subhamoy\\new-client-subhamoy\\DM1\\DM1\\DM1.csproj": {
+    "I:\\Projects_backup\\TIPPER\\Code_github\\DM_v2\\DM_v2\\new-client-subhamoy\\new-client-subhamoy\\DM1\\DM1\\DM1.csproj": {
       "version": "2.0.0",
       "restore": {
-        "projectUniqueName": "I:\\Projects\\TIPPER\\Code_github\\DTM_YimingNewClient\\new-client-subhamoy\\new-client-subhamoy\\DM1\\DM1\\DM1.csproj",
+        "projectUniqueName": "I:\\Projects_backup\\TIPPER\\Code_github\\DM_v2\\DM_v2\\new-client-subhamoy\\new-client-subhamoy\\DM1\\DM1\\DM1.csproj",
         "projectName": "DM1",
-        "projectPath": "I:\\Projects\\TIPPER\\Code_github\\DTM_YimingNewClient\\new-client-subhamoy\\new-client-subhamoy\\DM1\\DM1\\DM1.csproj",
+        "projectPath": "I:\\Projects_backup\\TIPPER\\Code_github\\DM_v2\\DM_v2\\new-client-subhamoy\\new-client-subhamoy\\DM1\\DM1\\DM1.csproj",
         "packagesPath": "C:\\Users\\Subhamoy\\.nuget\\packages\\",
-        "outputPath": "I:\\Projects\\TIPPER\\Code_github\\DTM_YimingNewClient\\new-client-subhamoy\\new-client-subhamoy\\DM1\\DM1\\obj\\",
+        "outputPath": "I:\\Projects_backup\\TIPPER\\Code_github\\DM_v2\\DM_v2\\new-client-subhamoy\\new-client-subhamoy\\DM1\\DM1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "I:\\Microsoft\\Xamarin\\NuGet\\",
