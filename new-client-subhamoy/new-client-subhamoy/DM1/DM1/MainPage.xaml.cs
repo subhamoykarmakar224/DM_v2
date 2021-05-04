@@ -874,6 +874,8 @@ namespace DM1
 
         public int generateDeliveryType()
         {
+            return 1;
+            /*
             TimeSpan duration = DateTime.Now - Globals.starttime;
             if (Globals.first_packet)
             {
@@ -894,6 +896,7 @@ namespace DM1
                     return 2;//at least once
                 }
             }
+            */
         }
 
     }   
